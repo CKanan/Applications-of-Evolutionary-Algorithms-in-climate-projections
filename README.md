@@ -22,3 +22,10 @@ Algorithm is used to find equation of each event with changing parameters of ave
 These algorithms are worked on island model in GPU programming to reduce time computation.
 Using equations, geophysicists and meteorologists can better understand climatic phenomena and
 make new analysis on these phenomena.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{img/walker_circ.png}
+    \caption{Schematic diagrams of (a) normal, (b) El Nino and (c) La Nina conditions. On the left side of each diagram is the western Pacific Ocean, near Asia, and on the right is the eastern Pacific Ocean, near South America. Warm ocean surface temperatures are indicated by red/orange colors, whereas cooler water is indicated by yellow/greenish colors. In the tropics, the thermocline is the depth at which the water temperature is around 20°C. Deep convective clouds rise over the pool of warm water. The warm pool of water flows eastward during El Nino (b), and the thermocline's slope flattens. The warm pool flows westward during La Nina (c), and the thermocline's slope steepens. (Source: NASA; see \href{https://www.pmel.noaa.gov/elnino/schematic-diagrams}{www.pmel.noaa.gov/elnino/schematic-diagrams})}
+    \label{fig:walker}
+\end{figure}
