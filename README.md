@@ -1,4 +1,4 @@
-# Applications-of-Evolutionary-Algorithms-in-climate-projections
+# Applications of Evolutionary Algorithms in climate projections
 Finding sine equations for climate phenomena.
 
 ## Abstract
@@ -16,7 +16,6 @@ important issues.
 In this thesis, applications of Machine Learning and Evolutionary Algorithms on the global cli-
 mate are presented. El Nino and La Nina events are classified according to Oceanic Nino Index val-
 ues using Machine Learning classification methods and are also classified according to their shapes
-
 by eye and automatically by ML clustering methods. The equations are found for events using EAs
 where Genetic Programming is used to find average equations for groups and Real Valued Genetic
 Algorithm is used to find equation of each event with changing parameters of average equation.
