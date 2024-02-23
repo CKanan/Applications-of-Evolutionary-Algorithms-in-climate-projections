@@ -25,12 +25,12 @@ make new analysis on these phenomena.
 
 ![walker_circ](https://github.com/CKanan/Applications-of-Evolutionary-Algorithms-in-climate-projections/assets/49164758/e534c9bf-6e3c-412d-a0c2-26783b5b32ab)
 
-Schematic diagrams of (a) normal, (b) El Nino and (c) La Nina conditions. On the left side of each diagram is the western Pacific Ocean, near Asia, and on the right is the eastern Pacific Ocean, near South America. Warm ocean surface temperatures are indicated by red/orange colors, whereas cooler water is indicated by yellow/greenish colors. In the tropics, the thermocline is the depth at which the water temperature is around 20°C. Deep convective clouds rise over the pool of warm water. The warm pool of water flows eastward during El Nino (b), and the thermocline's slope flattens. The warm pool flows westward during La Nina (c), and the thermocline's slope steepens. (Source: NASA; see {https://www.pmel.noaa.gov/elnino/schematic-diagrams}{www.pmel.noaa.gov/elnino/schematic-diagrams})}
+Schematic diagrams of (a) normal, (b) El Nino and (c) La Nina conditions. On the left side of each diagram is the western Pacific Ocean, near Asia, and on the right is the eastern Pacific Ocean, near South America. Warm ocean surface temperatures are indicated by red/orange colors, whereas cooler water is indicated by yellow/greenish colors. In the tropics, the thermocline is the depth at which the water temperature is around 20°C. Deep convective clouds rise over the pool of warm water. The warm pool of water flows eastward during El Nino (b), and the thermocline's slope flattens. The warm pool flows westward during La Nina (c), and the thermocline's slope steepens. (Source: NASA; see {https://www.pmel.noaa.gov/elnino/schematic-diagrams})
 
 ## Data
 
 I used Oceanic Nino Index (ONI) dataset from Climate Prediction Center of the National
-Oceanic and Atmospheric Administration (NOAA). It is the running 3-month mean Sea Sur-
+Oceanic and Atmospheric Administration (NOAA) (Data source : https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php). It is the running 3-month mean Sea Sur-
 face Temperature (SST) anomaly for the Nino 3.4 region which located in the intervals [5° South;
 5° North] and [170° West; 120° West] in the Pacific ocean.
 
@@ -40,11 +40,9 @@ This dataset covers ONI time series from 1950 to present. During the period cove
 dataset, 26 El nino and 24 La nina events occurred. The index is defined as the aver-
 age of monthly SST anomalies. The monthly anomalies are calculated by subtracting the average
 temperature in the same month over the past 30 years. Then the running three-months average is
-calculated
+calculated.
 
 ![data](https://github.com/CKanan/Applications-of-Evolutionary-Algorithms-in-climate-projections/assets/49164758/06ccf1ed-4abb-424a-ab1c-a7faf620dffc)
-
-When El nino events are identified in at least five consecutive 3-month periods at or above $+0.5^{\circ}$ anomaly, La nina events are identified at or below $-0.5^{\circ}$ anomaly. These events can be categorized as weak, moderate, strong and very strong when their anomalies  equaled or exceeded the threshold for at least three consecutive 3-month periods. The threshold for weak is from 0.5 to 0.9, for moderate is from 1.0 to 1.4, for strong is from 1.5 to 1.9 and for very strong is equal or greater than 2.0 
 
 
 
